@@ -15,6 +15,7 @@ header {
   font-size: 1.125rem;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 header img {
@@ -31,8 +32,15 @@ header p {
 
 nav ul {
   display: flex;
+  color: #0074d9;
+  list-style-type: none;
 }
 
 nav a {
+text-decoration: none;
+padding: 1rem;
+}
 
+body {
+margin: 0;
 }
