@@ -10,37 +10,44 @@ html {
 
 header {
   display: flex;
-  padding: 1em;
+  padding: .6em;
   background-color: #e2e2e2;
   font-size: 1.125rem;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
 }
 
 header img {
   width: 2rem;
+  order: -1;
 }
 
 header h1 {
-
+  padding: 0;
 }
 
 header p {
-
+  font-size: 1.125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul {
   display: flex;
-  color: #0074d9;
   list-style-type: none;
 }
 
 nav a {
-text-decoration: none;
-padding: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #0074d9;
 }
 
 body {
-margin: 0;
+  margin: 0;
+  border-color: #fff;
+}
+
+a:hover {
+  color: #fff;
 }
