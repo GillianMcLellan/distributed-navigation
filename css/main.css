@@ -20,6 +20,7 @@ header {
 header img {
   width: 2rem;
   order: -1;
+  margin-right: .75em;
 }
 
 header h1 {
@@ -35,6 +36,8 @@ header p {
 nav ul {
   display: flex;
   list-style-type: none;
+  margin: 0 0.6em;
+  padding: 0;
 }
 
 nav a {
